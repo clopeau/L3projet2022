@@ -1,0 +1,72 @@
+
+@import url('https://fonts.google.com/share?selection.family=Oswald:wght@600');
+*{
+    font-family: 'Oswald', sans-serif;
+
+}
+
+
+
+body {
+    margin: 0 auto;
+}
+/* Tete de page  */
+
+header.header {
+    display: flex;
+    align-items: center;
+    background-color: rgb(12, 12, 12);
+}
+
+header.header img {
+    width: 300px;
+}
+section.top-page {
+    background: url('images/fond.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+
+/* langind page, page de bienvenue */
+.big-title {
+    color: blanchedalmond;
+    font-size: 20px;
+    padding: 20px;
+
+}
+
+.mini-title {
+    color: rgb(190, 25, 25);
+    font-size: 15px;
+    padding: 20px;
+    margin-left: 40%;
+
+
+}
+/* Menu de navigation */
+nav.nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 400px;
+    margin-left: 30px;
+}
+
+nav.nav li {
+    color: white;
+}
+
+div.formulaire
+{
+background: #f98808d9 ;
+color:white;
+font-size: 20pt;
+padding: 30px;
+border-radius: 10px;
+margin-top: 20px;
+margin-left: 20%;
+margin-right: 35%;
+padding-left : 2%;
+padding-right: 2%;
+display: flex;
+}
